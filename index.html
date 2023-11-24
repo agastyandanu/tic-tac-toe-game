@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Tic-Tac-Toe Game</title>
+</head>
+<body>
+  <div class="container">
+    <div class="game-title">Tic-Tac-Toe</div>
+    <div id="gameMessage" class="game-message"></div>
+    <div id="gameBoard" class="game-board"></div>
+    <div class="bottom-section">
+      <div>
+        <label for="boardSize" class="select-lable">Choose Board Size:</label>
+        <select id="boardSize">
+          <option value="3">3x3</option>
+          <option value="6">6x6</option>
+          <option value="9">9x9</option>
+          <option value="12">12x12</option>
+          <option value="15">15x15</option>
+          <option value="18">18x18</option>
+        </select>
+      </div>
+      <button id="restartBtn" class="restart-btn">Restart Game</button>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>

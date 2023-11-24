@@ -1,0 +1,97 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  color: #fff;
+  background-color: #000;
+}
+
+.container {
+  text-align: center;
+  justify-content: center;
+}
+
+.game-title {
+  font-size: 2.5em;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.game-board {
+  display: grid;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.game-message {
+  font-size: 2em;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.board-cell {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #fff;
+  font-size: 2em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.board-cell:hover {
+  background-color: #0C0C0C;
+}
+
+.bottom-section {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.select-lable {
+  font-size: 1.1em;
+}
+
+select {
+  padding: 5px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+select:hover {
+  border-color: #aaa;
+}
+
+select:focus {
+  border-color: #2196F3;
+  box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
+}
+
+.restart-btn {
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 1.1em;
+  cursor: pointer;
+  background-color: #0079FF;
+  border: none;
+  border-radius: 5px;
+}
+
+.restart-btn:hover {
+  background-color: #1986FF;
+}
